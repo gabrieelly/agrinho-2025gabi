@@ -1,0 +1,72 @@
+url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&family=Rakkas&display=swap');
+
+/* Variáveis */
+:root {
+    --primary-color: #a52a2a; /* Cor primária adaptada para queimadas */
+    --secondary-color: #f4a460; /* Cor secundária adaptada */
+    --text-color: #333; /* Cor do texto */
+    --background-color: #f2e3d5; /* Cor de fundo */
+    --button-hover: #8b4513; /* Cor do botão ao passar o mouse */
+    --font-body: "Chocolate Classical Sans", serif;
+    --font-titulo: "Rakkas", serif;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-body);
+}
+
+/* Corpo da página */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+/* Estilos para títulos e parágrafos */
+h2 {
+    color: var(--primary-color);
+    margin-top: 30px;
+}
+
+h3 {
+    margin-top: 25px;
+    color: var(--secondary-color);
+}
+
+p {
+    margin-top: 20px;
+}
+
+/* Estilos para imagens */
+img {
+    max-width: 90%;
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+/* Estilo para botões */
+.cta-button {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: var(--button-hover);
+}
+
+/* Estilo para o footer */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+    background-color: var(--secondary-color);
+    color: #fff;
+}
